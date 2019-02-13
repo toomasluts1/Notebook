@@ -70,6 +70,7 @@ namespace Notebook
                 {
                     Console.WriteLine($"TEST {i}: {Notes.NoteContents[i]}");
                 }
+
                 if (noteContentFragment == null || noteContentFragment.NoteId != noteId)
                 {
                     var container = Activity.FindViewById(Resource.Id.note_container);
