@@ -2540,9 +2540,6 @@ namespace Notebook
 			// aapt resource value: 0x7f080058
 			public const int forever = 2131230808;
 			
-			// aapt resource value: 0x7f08008f
-			public const int fragment3 = 2131230863;
-			
 			// aapt resource value: 0x7f08000a
 			public const int ghost_view = 2131230730;
 			
@@ -2818,6 +2815,9 @@ namespace Notebook
 			
 			// aapt resource value: 0x7f080071
 			public const int titleDividerNoCustom = 2131230833;
+			
+			// aapt resource value: 0x7f08008f
+			public const int title_container = 2131230863;
 			
 			// aapt resource value: 0x7f08006f
 			public const int title_template = 2131230831;

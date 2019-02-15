@@ -804,7 +804,6 @@ int id fill_horizontal 0x7f080051
 int id fill_vertical 0x7f080048
 int id fixed 0x7f080054
 int id forever 0x7f080058
-int id fragment3 0x7f08008f
 int id ghost_view 0x7f08000a
 int id home 0x7f080005
 int id homeAsUp 0x7f080021
@@ -897,6 +896,7 @@ int id textinput_error 0x7f080015
 int id time 0x7f0800ac
 int id title 0x7f08001c
 int id titleDividerNoCustom 0x7f080071
+int id title_container 0x7f08008f
 int id title_template 0x7f08006f
 int id top 0x7f08003e
 int id topPanel 0x7f08006e

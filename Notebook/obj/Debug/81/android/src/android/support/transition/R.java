@@ -3018,7 +3018,6 @@ containing a value of this type.
         public static int fill_vertical=0x7f080048;
         public static int fixed=0x7f080054;
         public static int forever=0x7f080058;
-        public static int fragment3=0x7f08008f;
         public static int ghost_view=0x7f08000a;
         public static int home=0x7f080005;
         public static int homeAsUp=0x7f080021;
@@ -3111,6 +3110,7 @@ containing a value of this type.
         public static int time=0x7f0800ac;
         public static int title=0x7f08001c;
         public static int titleDividerNoCustom=0x7f080071;
+        public static int title_container=0x7f08008f;
         public static int title_template=0x7f08006f;
         public static int top=0x7f08003e;
         public static int topPanel=0x7f08006e;

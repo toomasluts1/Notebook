@@ -17,6 +17,10 @@ namespace Notebook
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.activity_main);
 
+            FragmentTransaction ft = this.FragmentManager.BeginTransaction();
+            ft.Replace(Resource.Id.title_container, new NoteTitlesFragment());
+            ft.Commit();
+
             var noteTitleText = FindViewById<EditText>(Resource.Id.noteTitleET);
             var addButton = FindViewById<Button>(Resource.Id.addNoteButton);
 
@@ -26,9 +30,9 @@ namespace Notebook
                 Notes.NoteContents.Add("");
                 noteTitleText.Text = "";
 
-                FragmentTransaction ft = this.FragmentManager.BeginTransaction();
-                ft.Replace(Resource.Id.fragment3, new NoteTitlesFragment());
-                ft.Commit();
+                FragmentTransaction ft2 = this.FragmentManager.BeginTransaction();
+                ft2.Replace(Resource.Id.title_container, new NoteTitlesFragment());
+                ft2.Commit();
             };
         }
     }
