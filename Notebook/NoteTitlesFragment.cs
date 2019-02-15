@@ -61,15 +61,10 @@ namespace Notebook
         {
             if (showingTwoFragments)
             {
-                //ListView.SetItemChecked(selectedNoteId, true);
+                selectedNoteId = noteId;
+                ListView.SetItemChecked(selectedNoteId, true);
 
                 var noteContentFragment = FragmentManager.FindFragmentById(Resource.Id.note_container) as NoteContentFragment;
-
-                //Console.WriteLine(noteId);
-                for(int i = 0; i < Notes.NoteContents.Count; i++)
-                {
-                    Console.WriteLine($"TEST {i}: {Notes.NoteContents[i]}");
-                }
 
                 if (noteContentFragment == null || noteContentFragment.NoteId != noteId)
                 {
@@ -78,6 +73,8 @@ namespace Notebook
 
                     FragmentTransaction ft = FragmentManager.BeginTransaction();
                     ft.Replace(Resource.Id.note_container, noteFrag);
+                    ft.AddToBackStack(null);
+                    ft.SetTransition(FragmentTransit.FragmentFade);
                     ft.Commit();
                 }
             }
@@ -87,7 +84,6 @@ namespace Notebook
                 intent.PutExtra("current_note_id", noteId);
                 StartActivity(intent);
             }
-
         }
     }
 }

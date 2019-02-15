@@ -17,6 +17,8 @@ namespace Notebook
     {
         public int NoteId => Arguments.GetInt("current_note_id", 0);
 
+        public NoteContentFragment() {}
+
         public static NoteContentFragment NewInstance(int noteId)
         {
             var bundle = new Bundle();

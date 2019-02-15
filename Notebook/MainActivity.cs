@@ -24,6 +24,7 @@ namespace Notebook
             {
                 Notes.NoteTitles.Add(noteTitleText.Text);
                 Notes.NoteContents.Add("");
+                noteTitleText.Text = "";
 
                 FragmentTransaction ft = this.FragmentManager.BeginTransaction();
                 ft.Replace(Resource.Id.fragment3, new NoteTitlesFragment());

@@ -36,7 +36,6 @@ D:\Documents\GitHub\MobileApps\Notebook\Notebook\obj\Debug\81\res\layout-land\ac
 D:\Documents\GitHub\MobileApps\Notebook\Notebook\obj\Debug\81\R.cs.flag
 D:\Documents\GitHub\MobileApps\Notebook\Notebook\obj\Debug\81\R.txt
 D:\Documents\GitHub\MobileApps\Notebook\Notebook\obj\Debug\81\uploadflags.txt
-D:\Documents\GitHub\MobileApps\Notebook\Notebook\obj\Debug\81\Notebook.csprojAssemblyReference.cache
 D:\Documents\GitHub\MobileApps\Notebook\Notebook\bin\Debug\Mono.Android.pdb
 D:\Documents\GitHub\MobileApps\Notebook\Notebook\bin\Debug\mscorlib.pdb
 D:\Documents\GitHub\MobileApps\Notebook\Notebook\bin\Debug\System.Core.pdb
@@ -56,6 +55,7 @@ D:\Documents\GitHub\MobileApps\Notebook\Notebook\obj\Debug\81\linksrc\System.Net
 D:\Documents\GitHub\MobileApps\Notebook\Notebook\obj\Debug\81\linksrc\System.Runtime.Serialization.pdb
 D:\Documents\GitHub\MobileApps\Notebook\Notebook\obj\Debug\81\linksrc\System.ServiceModel.Internals.pdb
 D:\Documents\GitHub\MobileApps\Notebook\Notebook\obj\Debug\81\linksrc\Mono.Security.pdb
+D:\Documents\GitHub\MobileApps\Notebook\Notebook\obj\Debug\81\Notebook.csprojAssemblyReference.cache
 D:\Documents\GitHub\MobileApps\Notebook\Notebook\obj\Debug\81\android\assets\Mono.Android.pdb
 D:\Documents\GitHub\MobileApps\Notebook\Notebook\obj\Debug\81\android\assets\Mono.Security.pdb
 D:\Documents\GitHub\MobileApps\Notebook\Notebook\obj\Debug\81\android\assets\mscorlib.pdb
